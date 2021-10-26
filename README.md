@@ -21,3 +21,21 @@ multiqc .
 ![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/5.png)
 ![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/6.png)
 ![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/7.png)
+
+cd ..
+mkdir originals  
+mv *.fastq originals  
+cd subsequences  
+
+mv sub_paired_end_R1.fq oil_R1.fastq
+mv sub_paired_end_R2.fq oil_R2.fastq
+mv sub_mate_pairs_R1.fq oilMP_S4_L001_R1_001.fastq
+mv sub_mate_pairs_R2.fq oilMP_S4_L001_R2_001.fastq
+mv * ..
+cd ..
+
+mkdir full_qc
+mv *qc* full_qc
+mv full_qc full_q_c
+
+platanus_trim oil_R1.fastq oil_R2.fastq
