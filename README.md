@@ -12,3 +12,6 @@ cd subsequences
 
 ls -1 | xargs -P 1 -tI{} fastqc {}  
 multiqc .
+
+Качество чтений для всех четырех файлов относительно хорошее, хотя и портится к концу чтения:  
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/1.png)
