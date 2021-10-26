@@ -38,4 +38,21 @@ mkdir full_qc
 mv *qc* full_qc
 mv full_qc full_q_c
 
-platanus_trim oil_R1.fastq oil_R2.fastq
+platanus_trim oil_R1.fastq oil_R2.fastq  
+platanus_internal_trim oilMP_S4_L001_R1_001.fastq oilMP_S4_L001_R2_001.fastq  
+mkdir trimmed_fastq
+mv -v *trimmed trimmed_fastq
+
+mkdir trimmed_fastqc  
+ls trimmed_fastq/* | xargs -P 1 -tI{} fastqc -o trimmed_fastqc {}  
+cd trimmed_fastqc  
+multiqc .  
+
+Результат работы программы multiqc (статистика и качество чтений):  
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/8.png)
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/9.png)
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/10.png)
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/11.png)
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/12.png)
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/13.png)
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/14.png)
