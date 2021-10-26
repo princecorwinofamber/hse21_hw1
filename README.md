@@ -59,3 +59,5 @@ multiqc .
 
 cd ..
 platanus assemble -o Poil -t 2 -m 28 -f trimmed_fastq/oil_R1.fastq.trimmed trimmed_fastq/oil_R2.fastq.trimmed 2> assemble_errors.log
+
+platanus scaffold -o Poil -t 2 -c Poil_contig.fa -IP1 trimmed_fastq/oil_R1.fastq.trimmed trimmed_fastq/oil_R2.fastq.trimmed -OP2 trimmed_fastq/oilMP_S4_L001_R1_001.fastq.int_trimmed trimmed_fastq/oilMP_S4_L001_R2_001.fastq.int_trimmed 2> scaffold.log
