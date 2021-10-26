@@ -15,3 +15,9 @@ multiqc .
 
 Качество чтений для всех четырех файлов относительно хорошее, хотя и портится к концу чтения:  
 ![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/1.png)
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/2.png)
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/3.png)
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/4.png)
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/5.png)
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/6.png)
+![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/7.png)
