@@ -56,3 +56,6 @@ multiqc .
 ![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/12.png)
 ![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/13.png)
 ![](https://github.com/princecorwinofamber/hse21_hw1/blob/main/img/14.png)
+
+cd ..
+platanus assemble -o Poil -t 2 -m 28 -f trimmed_fastq/oil_R1.fastq.trimmed trimmed_fastq/oil_R2.fastq.trimmed 2> assemble_errors.log
