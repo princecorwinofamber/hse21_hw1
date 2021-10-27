@@ -69,3 +69,5 @@ platanus gap_close -o Poil -t 1 -c Poil_scaffold.fa -IP1 trimmed_fastq/oil_R1.fa
 
 Переименуем Poil_contig.fa в contigs.fasta, а Poil_gapClosed.fa в scaffolds.fasta  
 Файл longest.fasta получим из результата программы gap_close при помощи BioPython
+
+https://colab.research.google.com/drive/1wd_KWk1zw3ilLzrf9ZaS8iBGFT2RD_OF?usp=sharing
